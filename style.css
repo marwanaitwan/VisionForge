@@ -1,0 +1,32 @@
+body{font-family: 'Times New Roman', Times, serif; line-height: 1.6; margin: 20px; background-color: #ffffff; color: #000000;}
+        header{background-color: #3B82F6; color: #ffffff; padding: 20px; text-align: center;}
+        nav{display: flex; justify-content: center; background-color: #626365; padding: 10px;}
+        nav a{color: #ffffff; margin: 0 15px; text-decoration: none;font-weight: bold;}
+        .container{padding: 20px; text-align: center;}
+        .products{display: flex;
+        color: #ffffff;}
+        .product{background: #626365;padding: 15px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+        .order-button{display: inline-block; margin-top: 10px; padding: 10px 15px; background-color: #3B82F6; color: #ffffff; text-decoration: none; border-radius: 5px;}
+        footer{background-color: #3B82F6; color: #ffffff; text-align: center; padding: 10px; position: absolute; bottom: 1; width: 100%;}
+
+      .order-button:hover {
+        background-color: #1359ca; 
+        color: #fff; 
+      }  
+      .link-button:hover{
+        background-color: #1359ca; 
+        color: #fff; 
+      }
+     .link-button {
+       background-color: #4CAF50; 
+       color: #fff; 
+       border: none; 
+       padding: 10px 20px; 
+       font-size: 16px; 
+       cursor: pointer;
+       text-decoration: underline; 
+     }
+     
+     .link-button:hover {
+       background-color: #434445; 
+     }
